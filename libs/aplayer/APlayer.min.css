@@ -526,6 +526,7 @@
 }
 
 .aplayer .aplayer-lrc p {
+    display: none;
     font-size: 12px;
     color: #666;
     line-height: 16px!important;
@@ -548,7 +549,7 @@
     display: none
 }
 
-.aplayer .aplayer-lrc .aplayer-lrc-contents {
+.aplayer {
     width: 100%;
     transition: all .5s ease-out;
     -webkit-user-select: text;
@@ -556,6 +557,11 @@
     -ms-user-select: text;
     user-select: text;
     cursor: default
+}
+
+.aplayer-lrc,
+.aplayer-lrc-contents {
+    display: none;
 }
 
 .aplayer .aplayer-list {
