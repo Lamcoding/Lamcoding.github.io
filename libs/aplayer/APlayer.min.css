@@ -153,9 +153,13 @@
 
 .aplayer.aplayer-fixed .aplayer-icon-back,
 .aplayer.aplayer-fixed .aplayer-icon-forward,
-.aplayer.aplayer-fixed .aplayer-icon-lrc,
+.aplayer.aplayer-fixed,
 .aplayer.aplayer-fixed .aplayer-icon-play {
     display: inline-block
+}
+
+.aplayer-icon-lrc {
+    display: none
 }
 
 .aplayer.aplayer-fixed .aplayer-icon-back,
@@ -508,7 +512,7 @@
 .aplayer .aplayer-lrc:before {
     position: absolute;
     z-index: 1;
-    display: block;
+    display: none;
     overflow: hidden;
     width: 100%;
     content: " "
