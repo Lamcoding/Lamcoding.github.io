@@ -52,7 +52,7 @@
 }
 
 .aplayer.aplayer-withlrc .aplayer-lrc {
-    display: block
+    display: none
 }
 
 .aplayer.aplayer-narrow {
